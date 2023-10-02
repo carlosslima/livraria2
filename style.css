@@ -1,0 +1,53 @@
+body{
+    background-image: url(ondinha.jpg);
+    font-size: large;
+    color: white;
+    background-size: 2000px 1000px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+header{
+    background-image: url("roxo.jpg");
+    background-size:300px 300px;
+    color: white;
+    top: auto;  
+    padding: 30px;
+    font-size: 50px;
+    text-shadow: 3px 3px black;
+}
+#botao{
+    background: greenyellow;
+    border-style: none;
+    font-weight: bolder;
+}
+.textos{
+    background: purple;
+    border-radius: 30px;
+    border-style: none;
+    box-shadow:0px 3px purple;
+    margin: 50px 750px 200px;
+    padding: 20px;
+    line-height: 1.5;
+}
+#livrinho{
+    height: 120px;
+    width: 200px;
+}
+.livro1{
+background: none;
+display: inline-block;
+left: 30%;
+width: 400px;
+box-sizing: border-box;
+border:2px solid;
+border-radius: 20px;
+border-color: hotpink;
+line-height: 30px;
+}
+footer{
+    height: 250px;
+    background-image : url(roxo.jpg);
+    background-size: 300px 400px;
+    position:relative;
+    padding: 40px;
+}
