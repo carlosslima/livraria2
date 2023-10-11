@@ -9,10 +9,11 @@ body{
 header{
     background-image: url("roxo.jpg");
     background-size:300px 300px;
+    display: block;
     color: white;
     top: auto;  
-    padding: 30px;
-    font-size: 50px;
+    padding: 10px;
+    font-size: 40px;
     text-shadow: 3px 3px black;
 }
 #botao{
@@ -22,11 +23,14 @@ header{
 }
 .form{
     font-size: 20px;
-    background: purple;
+    background: #9932CC;
     border-radius: 30px;
-    border-style: none;
+    border: 1px;
+    border-color: orchid;
+    border-style: solid;
     box-shadow: 0px 2px white;
-    margin: 50px 750px 200px;
+    text-shadow:0px 2px black;
+    margin: 60px 780px 220px;
     padding: 30px;
 }
 .textos{
@@ -34,13 +38,13 @@ header{
     border-radius: 30px;
     border-style: none;
     box-shadow:0px 2px white;
-    margin: 50px 750px 200px;
+    margin: 50px 750px 50px;
     padding: 20px;
     line-height: 1.5;
 }
 #livrinho{
-    height: 120px;
-    width: 200px;
+    height: 70px;
+    width: 140px;
 }
 .livro1{
 background: none;
@@ -53,6 +57,26 @@ border-radius: 20px;
 border-color: hotpink;
 line-height: 30px;
 }
+.livro2{
+    background: none;
+    display: inline-block;
+    left: 30%;
+    width: 380px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 20px;
+    border-color: hotpink;
+    line-height: 30px;
+}
+.home{
+    font-size:20px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: auto;
+    margin-top:90px ;
+    margin-left: 600px;
+}
 .satisfaction{
  background:purple;
  display: inline-block;
@@ -63,7 +87,7 @@ line-height: 30px;
  text-shadow:1px 1px black;
 }
 footer{
-    height: 250px;
+    height: 127px;
     background-image : url(roxo.jpg);
     background-size: 300px 400px;
     position:relative;
